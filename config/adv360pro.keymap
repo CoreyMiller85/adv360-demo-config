@@ -15,9 +15,8 @@
 #define SYS 2
 #define KEYPAD 3
 #define FN 4
-#define GAME 5
-#define MOD 6
-
+#define MOD 5
+#define GAME 6
 #define MS 7
 
 / {
