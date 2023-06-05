@@ -54,7 +54,7 @@
         colemak_layer {
             bindings = <
                 ___       ___       ___       ___       ___       ___       ___            ___       ___       ___       ___       ___       ___       ___
-                ___       &kp Q     &kp W     &kp F     &kp P     &kp B     ___            ___       &kp J     &kp L     &kp U     &kp Y     &kp SQT   &kp BSLH
+                ___       &kp SEMI  &kp COMMA &kp DOT   &kp P     &kp Y     ___            ___       &kp F     &kp G     &kp C     &kp R     &kp SQT   &kp BSLH
                 ___       &kp A     &kp R     &kp S     &kp T     &kp G     ___            ___       &kp M     &kp N     &kp E     &kp I     &kp O     &kp FSLH
                 ___       &kp Z     &kp X     &kp C     &kp D     &kp V                              &kp K     &kp H     &kp COMMA &kp DOT   &kp SEMI  ___
                 ___       ___       ___       ___       ___                                                    ___       ___       ___       ___       ___
@@ -73,7 +73,7 @@
                 ___       ___       ___       ___       ___       ___       ___            ___       ___      ___  ___    ___     ___    ___
                 ___       ___       ___       ___       ___       ___                                ___      ___  ___    ___     ___    ___
                 ___       ___       ___       ___       ___                                                   ___  ___    ___     ___    ___
-                                                                  ___       ___            ___       ___
+                                                                  &kp LGUI  ___            &kp LSHFT ___
                                                         ___       ___       ___            ___       ___      ___
                                                                             ___            ___
             >;
@@ -111,7 +111,7 @@
             bindings = <
                 ___       &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 ___              ___         &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 ___
                 ___       ___          ___          ___          ___          ___          &bootloader      &bootloader ___          ___              ___          ___          ___          ___
-                ___       ___          ___          ___          ___          ___          ___              ___         ___          ___              ___          ___          ___          ___
+                ___       ___          ___          ___          ___          ___          &tog SYS              ___         ___          ___              ___          ___          ___          ___
                 ___       ___          ___          ___          ___          ___                                       ___          ___              ___          ___          ___          ___
                 ___       ___          ___          &bl BL_INC   &bl BL_DEC                                                          &bl BL_INC       &bl BL_DEC   ___          ___          ___
                                                                               &bt BT_CLR   &bt BT_CLR       &bt BT_CLR  &bt BT_CLR
