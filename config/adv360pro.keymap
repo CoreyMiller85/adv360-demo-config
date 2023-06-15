@@ -46,7 +46,7 @@
                 &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
                 &kp LCTRL    &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT                                           &kp DOWN  &kp UP    &kp LBKT  &kp RBKT  &kp RCTRL
                                                                   &kp LCTRL &kp LALT          &kp LGUI  &kp RCTRL
-                                                        &kp BSPC  &kp DEL   &mo FN            &mo FN    &kp ENTER &kp SPACE
+                                                        &kp BSPC  &kp DEL   &mo SYS           &mo SYS    &kp ENTER &kp SPACE
                                                                             &mo KEYPAD        &mo KEYPAD
             >;
         };
