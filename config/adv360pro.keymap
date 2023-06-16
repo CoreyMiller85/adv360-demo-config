@@ -7,10 +7,7 @@
 /* definitions for mouse layer */
 #include "mouse.dtsi"
 #define ___ &trans
-
 #define QWERTY 0
-#define COLEMAK 1
-#define SYS 2
 #define SYS 1
 #define COLEMAK 2
 #define KEYPAD 3
@@ -41,26 +38,26 @@
                 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &to QWERTY     &tog MS   &kp Y     &kp U     &kp I     &kp O     &kp P     &kp BSLH
                 &kp ESC   &kp A     &kp S     &kp D     &kp F     &kp G     &to COLEMAK    &tog GAME &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
                 &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
-                &mo FN    &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT                                              &kp DOWN  &kp UP    &kp LBKT  &kp RBKT  &mo FN
-                                                                  &kp LCTRL &kp LALT       &kp LGUI  &kp RCTRL
-                                                        &kp BSPC  &kp DEL   &mo SYS        &kp PG_UP &kp ENTER &kp SPACE
-                                                                            &mo KEYPAD        &kp PG_DN
+                &kp LCTRL    &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT                                           &kp DOWN  &kp UP    &kp LBKT  &kp RBKT  &kp RCTRL
+                                                                  &kp LCTRL &kp LALT          &kp LGUI  &kp RCTRL
+                                                        &kp BSPC  &kp DEL   &mo FN            &mo FN    &kp ENTER &kp SPACE
+                                                        &kp BSPC  &kp DEL   &mo SYS           &mo SYS    &kp ENTER &kp SPACE
+                                                                            &mo KEYPAD        &mo KEYPAD
             >;
         };
-
+        
         sys {
             bindings = <
                 ___       ___       ___       ___       ___       ___       ___            ___       ___      ___  ___    ___     ___    ___
-                ___       ___       ___       ___       ___       ___       ___            ___       ___      ___  ___    ___     ___    ___
-                ___       ___       ___       ___       ___       ___       ___            ___       ___      ___  ___    ___     ___    ___
+                ___       ___       ___       ___       ___       ___       &kp C_VOL_UP   ___       ___      ___  ___    ___     ___    ___
+                ___       ___       ___       ___       ___       ___       &kp C_VOL_DN ___       ___      ___  ___    ___     ___    ___
                 ___       ___       ___       ___       ___       ___                                ___      ___  ___    ___     ___    ___
                 ___       ___       ___       ___       ___                                                   ___  ___    ___     ___    ___
-                                                                  &kp LGUI  ___            &kp LSHFT ___
+                                                                  &kp LGUI  ___            &kp LALT  ___
                                                         ___       ___       ___            ___       ___      ___
                                                                             ___            ___
             >;
         };
-
         colemak_layer {
             bindings = <
                 ___       ___       ___       ___       ___       ___       ___            ___       ___       ___       ___       ___       ___       ___
@@ -73,23 +70,10 @@
                                                                             ___            ___
             >;
             
-
+            
         };
-
-        sys {
-            bindings = <
-                ___       ___       ___       ___       ___       ___       ___            ___       ___      ___  ___    ___     ___    ___
-                ___       ___       ___       ___       ___       ___       ___            ___       ___      ___  ___    ___     ___    ___
-                ___       ___       ___       ___       ___       ___       ___            ___       ___      ___  ___    ___     ___    ___
-                ___       ___       ___       ___       ___       ___                                ___      ___  ___    ___     ___    ___
-                ___       ___       ___       ___       ___                                                   ___  ___    ___     ___    ___
-                                                                  &kp LGUI  ___            &kp LSHFT ___
-                                                        ___       ___       ___            ___       ___      ___
-                                                                            ___            ___
-            >;
-        };
-
-
+        
+        
         keypad {
             bindings = <
                 ___       ___       ___       ___       ___       ___       ___            ___       ___       &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY ___
@@ -105,8 +89,8 @@
         fn {
             bindings = <
                 &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    ___            ___       &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-                ___       ___       ___       ___       ___       ___       &kp C_VOL_UP   ___       &kp HOME  &kp PG_DN &kp PG_UP &kp END   ___       ___
-                ___       ___       ___       ___       ___       ___       &kp C_VOL_UP   ___       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT ___       ___
+                ___       ___       ___       ___       ___       ___       ___            ___       &kp HOME  &kp PG_DN &kp PG_UP &kp END   ___       ___
+                ___       ___       ___       ___       ___       ___       ___            ___       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT ___       ___
                 ___       ___       ___       ___       ___       ___                                ___       ___       ___       ___       ___       ___
                 ___       &swap     ___       ___       ___                                                    ___       ___       ___       ___       ___
                                                                   ___       ___            ___       ___
