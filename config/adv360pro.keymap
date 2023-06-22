@@ -39,8 +39,8 @@
                 &kp ESC   &kp A     &kp S     &kp D     &kp F     &kp G     &to COLEMAK    &tog GAME &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
                 &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
                 &kp LCTRL    &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT                                           &kp DOWN  &kp UP    &kp LBKT  &kp RBKT  &kp RCTRL
-                                                                  &kp LCTRL &kp LALT          &kp LGUI  &kp RCTRL
-                                                        &kp BSPC  &lt SYS DEL   &mo FN            &mo FN    &lt SYS ENTER &kp SPACE
+                                                                      &kp LCTRL &kp LALT      &kp LGUI  &kp RCTRL
+                                                        &kp BSPC  &lt MAC DEL   &mo FN        &mo FN    &lt MAC ENTER &kp SPACE
                                                                             &mo KEYPAD        &mo KEYPAD
             >;
         };
