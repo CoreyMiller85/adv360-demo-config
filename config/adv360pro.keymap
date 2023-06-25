@@ -11,10 +11,11 @@
 #define MAC 1
 #define COLEMAK 2
 #define KEYPAD 3
-#define FN 4
-#define MOD 5
-#define GAME 6
-#define MS 7
+#define MOD 4
+#define GAME 5
+#define MS 6
+#define FN 7
+
 / {
     /* remove unused keys from layout and move thumb cluster to bottom */
     chosen {
@@ -85,18 +86,7 @@
                                                                             ___            ___
             >;
         };
-        fn {
-            bindings = <
-                &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    ___            ___       &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-                ___       ___       ___       ___       ___       ___       &kp C_VOL_UP   ___       &kp HOME  &kp PG_DN &kp PG_UP &kp END   ___       ___
-                ___       ___       ___       ___       ___       ___       &kp C_VOL_DN   ___       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT ___       ___
-                ___       ___       ___       ___       ___       ___                                ___       ___       ___       ___       ___       ___
-                ___       &swap     ___       ___       ___                                                    ___       ___       ___       ___       ___
-                                                                  ___       ___            ___       ___
-                                                        ___       ___       ___            ___       ___       ___
-                                                                            ___            ___
-            >;
-        };
+    
         
         
         mod {
@@ -134,6 +124,19 @@
                                                                   U_BTN3    ___            ___       U_BTN3
                                                         U_BTN1    U_BTN2    U_WH_L         U_WH_U    U_BTN2    U_BTN1
                                                                             U_WH_R         U_WH_D
+            >;
+        };
+
+    fn {
+            bindings = <
+                &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    ___            ___       &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
+                ___       ___       ___       ___       ___       ___       &kp C_VOL_UP   ___       &kp HOME  &kp PG_DN &kp PG_UP &kp END   ___       ___
+                ___       ___       ___       ___       ___       ___       &kp C_VOL_DN   ___       &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT ___       ___
+                ___       ___       ___       ___       ___       ___                                ___       ___       ___       ___       ___       ___
+                ___       &swap     ___       ___       ___                                                    ___       ___       ___       ___       ___
+                                                                  ___       ___            ___       ___
+                                                        ___       ___       ___            ___       ___       ___
+                                                                            ___            ___
             >;
         };
     };
