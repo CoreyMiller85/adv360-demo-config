@@ -119,9 +119,9 @@
                 &kp CAPS  &kp A     &kp S     &kp D     &kp F     &kp G     &to COLEMAK    &tog GAME &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
                 &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
                 &kp LCTRL &kp GRAVE    &kp CAPS  &kp LEFT  &kp LALT                                              &kp DOWN  &kp UP    &kp LBKT  &kp RBKT  &mo FN
-                                                                   &kp LCTRL    &kp LALT       &kp LGUI  &kp RCTRL
-                                                        &kp SPACE  &kp BSPC   &mo FN       &kp PG_UP &kp ENTER &kp SPACE
-                                                                               &mo NUM     &kp PG_DN
+                                                                   &kp LCTRL   &kp LALT       &kp LGUI  &kp RCTRL
+                                                        &kp SPACE  &kp BSPC    &mo FN         &kp PG_UP &kp ENTER &kp SPACE
+                                                                               &mo KEYPAD     &kp PG_DN
             >;
         };
         mouse {
