@@ -36,8 +36,8 @@
         base_layer {
             bindings = <
                 &kp EQUAL &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &to MAC    &mo MOD   &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS
-                &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &to QWERTY     &tog MS   &kp Y     &kp U     &kp I     &kp O     &kp P     &kp BSLH
-                &kp ESC   &kp A     &kp S     &kp D     &kp F     &kp G     &to COLEMAK    &tog GAME &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
+                &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &to QWERTY &tog MS   &kp Y     &kp U     &kp I     &kp O     &kp P     &kp BSLH
+                &kp ESC   &kp A     &kp S     &kp D     &kp F     &kp G     &to MAC    &tog GAME &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
                 &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
                 &kp LCTRL    &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT                                           &kp DOWN  &kp UP    &kp LBKT  &kp RBKT  &kp RCTRL
                                                                       &kp LCTRL &kp LALT      &kp LGUI  &kp RCTRL
@@ -93,7 +93,7 @@
             bindings = <
                 ___       &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 ___              ___         &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 ___
                 ___       ___          ___          ___          ___          ___          &bootloader      &bootloader ___          ___              ___          ___          ___          ___
-                ___       ___          ___          ___          ___          ___          &tog MAC              ___         ___          ___              ___          ___          ___          ___
+                ___       ___          ___          ___          ___          ___          ___              ___         ___          ___              ___          ___          ___          ___
                 ___       ___          ___          ___          ___          ___                                       ___          ___              ___          ___          ___          ___
                 ___       ___          ___          &bl BL_INC   &bl BL_DEC                                                          &bl BL_INC       &bl BL_DEC   ___          ___          ___
                                                                               &bt BT_CLR   &bt BT_CLR       &bt BT_CLR  &bt BT_CLR
